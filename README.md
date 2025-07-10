@@ -1,4 +1,4 @@
-LaChanti_Python
+LaChanti Phillips_Python
 
 ****__PYTHON FUNDAMENTALS_****
 
