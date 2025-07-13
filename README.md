@@ -1,5 +1,8 @@
 LaChanti Phillips_Python
 
+
+
+
 *** NOTEBOOKS 1-2 ***
 
 %matplotlib inline
@@ -11,7 +14,6 @@ sns.set(style = "darkgrid")
 df = pd.read_csv('/home/student/Desktop/classroom/myfiles/notebooks/fortune500.csv')
 
 df.head()
-
 
 <div>
 <style scoped>
@@ -391,7 +393,7 @@ patient_name = "Jon Smith"
 # String comprised of numbers
 patient_id = '001'
 
-# Use variables in python
+# Use variable in python
 
 weight_lb = 2.2 * weight_kg
 
@@ -614,7 +616,7 @@ matplotlib.pyplot.show()
 
 
 
-******_STORING VALUES IN LIST-PYTHON_****__**__
+****_STORING VALUES IN LIST-PYTHON_****
 
 odds = [1, 3, 5, 7,]
 print('odds are:', odds)
@@ -717,7 +719,7 @@ print('Omitting ending index:', sond)
 
 
 
-**_ USING LOOPS_**
+****_ USING LOOPS_****
 
 odds = [1,3,5,7]
 
@@ -771,6 +773,9 @@ print(len(name))
 
 
 
+
+
+
 **** MULTIPLE FILES ****
 
 
@@ -820,6 +825,8 @@ for filename in filenames:
     inflammation-03.csv
 
 ![png](output_2_5.png)
+
+
 
 
 
@@ -923,6 +930,9 @@ else:
 
 
   
+
+
+
 
 ***_FUNCTIONS 1_4***
 
@@ -1420,6 +1430,8 @@ def std_dev(sample):
 
 
 
+
+
 ***_DEFENSIVE PROGRAMMING_***
 
 numbers = [1.5, 2.3, 0.7, -0.001, 4.4]
@@ -1433,14 +1445,6 @@ print('total is:', total)
 
     ---------------------------------------------------------------------------
 
-    AssertionError                            Traceback (most recent call last)
-
-    <ipython-input-1-13c7d5640ddd> in <module>
-          2 total = 0.0
-          3 for num in numbers:
-    ----> 4     assert num > 0.0, 'Data should only contain positive values'
-          5     total += num
-          6 print('total is:', total)
 
 
     AssertionError: Data should only contain positive values
@@ -1538,14 +1542,14 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0)))
          21     return (0, 0, upper_x, upper_y)
 
 
-    AssertionError: Calculated upper y coordinate invalid
+    
 
 
 
 
    
    
-    ***_TRANSCRIPTION_***
+****_TRANSCRIPTION_****
 
 
     # Prompt the user to enter the input fasta file name
@@ -1593,6 +1597,9 @@ ATGTCTGACGAAAAGAAGGGAGGTGAGACCGAGCACATCAACCTGAAGGTCCTCGGCCAGGACAACGCCG
 TCGTCCAGTTCAAGATCAAGAAGCACACACCCTTGAGGAAGCTGATGAACGCCTACTGCGACCGTGCCGG
 ACTCTCCATGCAGGTGGTGCGCTTCCGTTTCGACGGACAGCCCATCAACGAGAACGACACTCCGACCTCG
 CTGGAGATGGAGGAGGGCGACACCATCGAGGTTTACCAGCAGCAGACTGGTGGCGCTCCATAA
+
+
+
 
 
 
